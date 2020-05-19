@@ -42,9 +42,11 @@ Submitted
 ## Installing our tool
 
 ```sh
-$ pip3 install -r requirements.txt
-
 $ git clone https://github.com/Bonidia/TsallisEntropy.git TsallisEntropy
+
+$ cd TsallisEntropy
+
+$ pip3 install -r requirements.txt
 ```
 
 ## Usange and Examples

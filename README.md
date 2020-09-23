@@ -49,7 +49,7 @@ $ cd TsallisEntropy
 $ pip3 install -r requirements.txt
 ```
 
-## Usange and Examples
+## Usage and Examples
 
 
 ```sh

@@ -73,9 +73,14 @@ def entropy_equation():
                 # print(key)
                 # print(value)
                 probabilities.append(value/total_windows)
-            entropy_equation = [(p ** q) for p in probabilities]
-            entropy =  (1/(q - 1)) * (1 - sum(entropy_equation))
-            information_entropy.append(entropy)
+            if q == 1:
+                entropy_equation = [(p * math.log(p, 2)) for p in probabilities]
+                entropy = -(sum(entropy_equation))
+                information_entropy.append(entropy)
+            else:
+                entropy_equation = [(p ** q) for p in probabilities]
+                entropy =  (1/(q - 1)) * (1 - sum(entropy_equation))
+                information_entropy.append(entropy)
         file_record(foutput, str(label_dataset))
     return
 

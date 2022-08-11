@@ -1,12 +1,15 @@
-# Information Theory for Biological Sequences Classification: A Novel Feature Descriptor based on Tsallis Entropy
+# Information Theory for Biological Sequence Classification: A Novel Feature Extraction Technique based on Tsallis Entropy
 
-Over the years, with the accelerated technological advance came the exponential growth of sequencing projects, generating a significant increase in the amount of data. Consequently, resulting in new challenges for biological sequence analysis. Moreover, with this large amount of sequences, new methods are needed. In this way, machine learning approaches are being used for the analysis and classification of biological sequences. The development of effective methods, through machine learning, benefits the mathematical understanding of the structure of sequences. However, sequence analysis with machine learning presents a classic problem, Feature Extraction, where is challenging generating representative and informative numeric features. Considering this, and that a need to extract numerical features to represent sequences makes it statistically feasible to apply universal concepts from Information Theory, we present a novel Tsallis entropy-based feature extraction approach, to classify biological sequences. Moreover, we investigate five classification algorithms like Naive Bayes, Random Forest, Bagging, Multi-layer Perceptron, and CatBoost, besides comparing the proposed approach with Shannon entropy. As a result, our proposal proved to be effective, being superior to Shannon entropy and robust in terms of generalization.
+In recent years, there has been an exponential growth of sequencing projects due to accelerated technological advances, leading to a significant increase in the amount of data, and resulting in new challenges for biological sequence analysis. Consequently, the use of techniques capable of analyzing large amounts of data has been explored, such as Machine Learning (ML) algorithms. ML algorithms are being used to analyze and classify biological sequences, despite the intrinsic difficulty in extracting and finding representative biological sequence methods suitable for them. Moreover, extracting numerical features to represent sequences makes it statistically feasible to use universal concepts from Information Theory, such as Tsallis and Shannon entropy.
+Thereby, in this study, we propose a novel Tsallis entropy-based feature extractor to provide useful information to classify biological sequences. To assess its relevance, we prepared four cases studies: (1) An analysis of the effect of the entropic index q; (2) Performance testing of the best entropic
+indices on new datasets; (3) A comparison made with Shannon Entropy; (4) An investigation of the Tsallis entropy in the context of dimensionality reduction. As a result, our proposal proved to be effective, being superior to Shannon entropy and robust in terms of generalization, and also
+potentially representative for collecting information in fewer dimensions compared to methods such as Singular Value Decomposition and Uniform Manifold Approximation and Projection.
 
 ## Authors
 
-* Robson Parmezan Bonidia and Anderson Paulo Ávila Santos.
+* Robson Parmezan Bonidia, Anderson P. Avila Santos, Breno L. S. de Almeida, Peter F. Stadler, Ulisses N. da Rocha, Danilo S. Sanches and André C.P.L.F. de Carvalho.
 
-* **Correspondence:** robservidor@gmail.com or bonidia@usp.br
+* **Correspondence:** rpbonidia@gmail.com or bonidia@usp.br
 
 
 ## Publication
